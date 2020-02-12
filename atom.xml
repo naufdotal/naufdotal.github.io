@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://ariq.nauf.al/atom.xml" rel="self" type="application/atom+xml" /><link href="https://ariq.nauf.al/" rel="alternate" type="text/html" /><updated>2019-12-03T13:08:38-05:00</updated><id>https://ariq.nauf.al/atom.xml</id><title type="html">Ariq Naufal</title><subtitle>catatan trial and error</subtitle><author><name>Ariq Naufal</name><email>ariq@nauf.al</email></author><entry><title type="html">Hello World</title><link href="https://ariq.nauf.al/blog/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2019-11-27T00:00:00-05:00</published><updated>2019-11-27T00:00:00-05:00</updated><id>https://ariq.nauf.al/blog/hello-world</id><content type="html" xml:base="https://ariq.nauf.al/blog/hello-world/">&lt;p&gt;بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+&lt;br /&gt;
+In the name of Allah, the Most Gracious, the Most Merciful&lt;/p&gt;
+
+&lt;p&gt;Perkenalkan nama saya Ariq, saya masih belajar terutama dalam bidang cloud, linux, dan sebagainya.
+Sangat penting sebagai pemula seperti saya untuk mencatat pengalaman demi pengalaman, oleh karena itu dibuat blog ini.
+Selain untuk catatan diri saya pribadi, niatnya blog ini juga menambah wawasan teman teman seperjuangan yang nemu link ini di google :D&lt;/p&gt;
+
+&lt;p&gt;Insya Allah bermanfaat untuk kita semua, di dunia dan di akhirat.&lt;/p&gt;
+
+&lt;h3 id=&quot;tentang-saya&quot;&gt;Tentang Saya&lt;/h3&gt;
+
+&lt;p&gt;Saat ini saya ialah seorang Teknisi Support yang kadang nyambi jadi system administrator, customer support, ataupun sebagai web developer di perusahaan A.
+Alhamdulillah semakin bertambah pengalaman di bidang dunia jasa terutama di industri Cloud Hosting.&lt;/p&gt;
+
+&lt;p&gt;Dari tahun 2015 sudah belajar Linux, WHMCS, Blesta, cPanel dan sebagainya yang sampai saat ini masih belajar di dunia itu wkwk.
+Semoga diawal 2020 bisa merambah dunia devops, atau Network Engineer.. sepertinya keren.. :D&lt;/p&gt;
+
+&lt;p&gt;Aaamiin, insya Allah.&lt;/p&gt;</content><author><name>Ariq Naufal</name><email>ariq@nauf.al</email></author><category term="life" /><summary type="html">Perkenalkan nama saya Ariq, saya masih belajar terutama dalam bidang cloud, linux, dan sebagainya.</summary></entry><entry><title type="html">[Part 1] Review Benchmark KS-9 Server</title><link href="https://ariq.nauf.al/review/review-benchmark-dedicated-kimsufi-KS9/" rel="alternate" type="text/html" title="[Part 1] Review Benchmark KS-9 Server" /><published>2019-04-12T00:00:00-04:00</published><updated>2019-04-12T00:00:00-04:00</updated><id>https://ariq.nauf.al/review/review-benchmark-dedicated-kimsufi-KS9</id><content type="html" xml:base="https://ariq.nauf.al/review/review-benchmark-dedicated-kimsufi-KS9/">&lt;blockquote&gt;
+  &lt;p&gt;Penjelasan tentang hasil benchmark ini akan dibuat setelah post ini rilis.. (maklum sambil belajar).
+Thx&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Daftar Isi :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Spesifikasi Lengkap Dedicated KS-9 di Kimsufi&lt;/li&gt;
+  &lt;li&gt;Testing Disk I/OPing&lt;/li&gt;
+  &lt;li&gt;Testing Disk DD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Berikut hasil benchmark untuk KS-9 di Kimsufi.com (anak perusahaannya OVH) yang jual dedicated server murah :&lt;/p&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;https://ariq.nauf.al/images/kimsufi.png&quot; alt=&quot;Kimsufi KS-9 Review Benchmark&quot; /&gt;
+  &lt;figcaption&gt;Kimsufi KS-9 Review Benchmark&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Benchmark kali ini menggunakan software centminmodbench.sh dengan versi 0.9.7 yang bisa diunduh di https://github.com/centminmod/centminmodbench/.&lt;/p&gt;
+
+&lt;p&gt;Pada awal box (box pertama benchmark) menjelaskan spesifikasi lengkap dari KS-9 Kimsufi :&lt;/p&gt;
+
+&lt;p&gt;Sistem operasi : CentOS 7.6&lt;br /&gt;
+Processor  : Intel(R) Xeon(R) CPU W3530 @ 2.80GHz (spesifikasi ada di ark.intel.com)&lt;br /&gt;
+Core / Threads = 4 Core / 8 Thread (1 Core = 2 Thread)&lt;br /&gt;
+RAM : 16GB DDR3 ECC&lt;br /&gt;
+Harddisk : SSD Raid1 2x240GB&lt;br /&gt;
+Kernel : 4.9.142-xxxx-std-ipv6-64&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;br /&gt;
+centminmodbench.sh 0.9.7&lt;br /&gt;
+http://bench.centminmod.com&lt;br /&gt;
+written by: George Liu (eva2000)&lt;br /&gt;
+http://centminmod.com&lt;br /&gt;
+——————————————-&lt;br /&gt;
+——————————————-&lt;br /&gt;
+System Information&lt;br /&gt;
+——————————————-&lt;br /&gt;
+&lt;br /&gt;
+4.9.142-xxxx-std-ipv6-64&lt;br /&gt;
+&lt;br /&gt;
+CentOS Linux release 7.6.1810 (Core)&lt;br /&gt;
+&lt;br /&gt;
+———————————————-&lt;br /&gt;
+Architecture: x86_64&lt;br /&gt;
+CPU op-mode(s): 32-bit, 64-bit&lt;br /&gt;
+Byte Order: Little Endian&lt;br /&gt;
+CPU(s): 8&lt;br /&gt;
+On-line CPU(s) list: 0-7&lt;br /&gt;
+Thread(s) per core: 2&lt;br /&gt;
+Core(s) per socket: 4&lt;br /&gt;
+Socket(s): 1&lt;br /&gt;
+NUMA node(s): 1&lt;br /&gt;
+Vendor ID: GenuineIntel&lt;br /&gt;
+CPU family: 6&lt;br /&gt;
+Model: 26&lt;br /&gt;
+Model name: Intel(R) Xeon(R) CPU W3530 @ 2.80GHz&lt;br /&gt;
+Stepping: 5&lt;br /&gt;
+CPU MHz: 1600.000&lt;br /&gt;
+CPU max MHz: 2800.0000&lt;br /&gt;
+CPU min MHz: 1600.0000&lt;br /&gt;
+BogoMIPS: 5600.02&lt;br /&gt;
+Virtualization: VT-x&lt;br /&gt;
+L1d cache: 32K&lt;br /&gt;
+L1i cache: 32K&lt;br /&gt;
+L2 cache: 256K&lt;br /&gt;
+L3 cache: 8192K&lt;br /&gt;
+NUMA node0 CPU(s): 0-7&lt;br /&gt;
+Flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm dca sse4_1 sse4_2 popcnt lahf_lm ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid dtherm ida flush_l1d&lt;br /&gt;
+&lt;br /&gt;
+CPU Flags&lt;br /&gt;
+fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm dca sse4_1 sse4_2 popcnt lahf_lm ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid dtherm ida flush_l1d&lt;br /&gt;
+&lt;br /&gt;
+———————————————-&lt;br /&gt;
+CPU NODE SOCKET CORE L1d:L1i:L2:L3 ONLINE MAXMHZ MINMHZ&lt;br /&gt;
+0 0 0 0 0:0:0:0 yes 2800.0000 1600.0000&lt;br /&gt;
+1 0 0 1 1:1:1:0 yes 2800.0000 1600.0000&lt;br /&gt;
+2 0 0 2 2:2:2:0 yes 2800.0000 1600.0000&lt;br /&gt;
+3 0 0 3 3:3:3:0 yes 2800.0000 1600.0000&lt;br /&gt;
+4 0 0 0 0:0:0:0 yes 2800.0000 1600.0000&lt;br /&gt;
+5 0 0 1 1:1:1:0 yes 2800.0000 1600.0000&lt;br /&gt;
+6 0 0 2 2:2:2:0 yes 2800.0000 1600.0000&lt;br /&gt;
+7 0 0 3 3:3:3:0 yes 2800.0000 1600.0000&lt;br /&gt;
+&lt;br /&gt;
+———————————————-&lt;br /&gt;
+total used free shared buff/cache available&lt;br /&gt;
+Mem: 16093 137 14924 9 1031 15618&lt;br /&gt;
+Low: 16093 1169 14924&lt;br /&gt;
+High: 0 0 0&lt;br /&gt;
+Swap: 1021 0 1021&lt;br /&gt;
+&lt;br /&gt;
+———————————————-&lt;br /&gt;
+Filesystem Size Used Avail Use% Mounted on&lt;br /&gt;
+devtmpfs 7.9G 0 7.9G 0% /dev&lt;br /&gt;
+tmpfs 7.9G 0 7.9G 0% /dev/shm&lt;br /&gt;
+tmpfs 7.9G 10M 7.9G 1% /run&lt;br /&gt;
+tmpfs 7.9G 0 7.9G 0% /sys/fs/cgroup&lt;br /&gt;
+/dev/md1 20G 1.4G 17G 8% /&lt;br /&gt;
+/dev/md2 201G 60M 190G 1% /home&lt;br /&gt;
+tmpfs 1.6G 0 1.6G 0% /run/user/0&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pada box kedua benchmark menjelaskan testing disk ioping dari KS-9 Kimsufi :&lt;/p&gt;
+
+&lt;p&gt;Testing disk ioping ini berguna untuk memonitor I/O latency secara langsung. Software ini menampilkan disk latency yang sama saja seperti jika kamu mencoba ping ketika mengetes network latency.  Script ada di code.google.com (sekarang sudah ada di github)&lt;/p&gt;
+
+&lt;p&gt;Contoh hasilnya pada Sequential I/O speed :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;IOPing sequential: ./ioping -RL .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;— . (ext4 /dev/md2) ioping statistics —&lt;br /&gt;
+1.9 k requests completed in 3.0 s, 641 iops, 160.4 MiB/s&lt;br /&gt;
+min/avg/max/mdev = 1.1 ms / 1.6 ms / 130.0 ms / 3.6 ms&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dengan perintah  ./ioping -RL . kita mendapatkan hasil Sequential I/O speed :
+1900 request selesai dalam waktu 3 detik dengan skor 641 iops dengan speed 160.4MB/s&lt;/p&gt;
+
+&lt;p&gt;Dengan ioping kita bisa mengetest seperti perintah dd dibawah, namun dengan lebih akurat.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;——————————————-&lt;br /&gt;
+disk ioping tests&lt;br /&gt;
+——————————————-&lt;br /&gt;
+&lt;br /&gt;
+2018-12-05 08:49:26 URL:https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/ioping/ioping-0.8.tar.gz [10590/10590] -&amp;gt; “ioping-0.8.tar.gz” [1]&lt;br /&gt;
+Download done.&lt;br /&gt;
+ioping-0.8.tar.gz valid file.&lt;br /&gt;
+&lt;br /&gt;
+Running IOPing I/O benchmark…&lt;br /&gt;
+cc -std=gnu99 -g -Wall -Wextra -pedantic -DVERSION=&quot;0.8&quot; -c -o ioping.o ioping.c&lt;br /&gt;
+cc -o ioping ioping.o -std=gnu99 -g -Wall -Wextra -pedantic  -lm&lt;br /&gt;
+&lt;br /&gt;
+IOPing I/O: ./ioping -c 10 .
+4.0 KiB from . (ext4 /dev/md2): request=1 time=87 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=2 time=185 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=3 time=185 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=4 time=147 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=5 time=147 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=6 time=239 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=7 time=235 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=8 time=236 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=9 time=257 us&lt;br /&gt;
+4.0 KiB from . (ext4 /dev/md2): request=10 time=255 us&lt;br /&gt;
+&lt;br /&gt;
+— . (ext4 /dev/md2) ioping statistics —&lt;br /&gt;
+10 requests completed in 9.0 s, 5.1 k iops, 19.8 MiB/s&lt;br /&gt;
+min/avg/max/mdev = 87 us / 197 us / 257 us / 53 us&lt;br /&gt;
+&lt;br /&gt;
+IOPing seek rate: ./ioping -RD .&lt;br /&gt;
+&lt;br /&gt;
+— . (ext4 /dev/md2) ioping statistics —&lt;br /&gt;
+20.0 k requests completed in 3.0 s, 6.8 k iops, 26.6 MiB/s&lt;br /&gt;
+min/avg/max/mdev = 73 us / 146 us / 303 us / 26 us&amp;gt;&lt;br /&gt;
+&lt;br /&gt;
+IOPing sequential: ./ioping -RL .&lt;br /&gt;
+&lt;br /&gt;
+— . (ext4 /dev/md2) ioping statistics —&lt;br /&gt;
+1.9 k requests completed in 3.0 s, 641 iops, 160.4 MiB/s&lt;br /&gt;
+min/avg/max/mdev = 1.1 ms / 1.6 ms / 130.0 ms / 3.6 ms&lt;br /&gt;
+&lt;br /&gt;
+IOPing cached: ./ioping -RC .&lt;br /&gt;
+&lt;br /&gt;
+— . (ext4 /dev/md2) ioping statistics —
+2.0 M requests completed in 3.0 s, 723.6 k iops, 2.8 GiB/s&lt;br /&gt;
+min/avg/max/mdev = 0 us / 1 us / 233 us / 0 us&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pada box ketiga benchmark menjelaskan testing DD DISK dari KS-9 Kimsufi :&lt;/p&gt;
+
+&lt;p&gt;Pada yang ketiga ini ialah testing DD disk yang berfungsi untuk mengecek kecepatan I/O, Berikut dijelaskan masing masing perintah pada box benchmark dibawah :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dd if=/dev/zero of=sb-io-test bs=1M count=1k conv=fdatasync
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pada perintah pertama kita mencoba test dd disk dengan mengopi (membuat) file baru di lokasi /dev/zero (blackhole) dengan nama sb-io-test dengan ukuran dasar 1MB sebanyak 1.000 kali, jadi totalnya 1GB di lokasi /dev/zero. Sedangkan fdatasync fungsinya menginstruksikan Linux agar benar – benar menuliskan datanya ke disk. Hasilnya ialah : 1073741824 bytes (1.1 GB) copied, 5.15034 s, 208 MB/s&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dd if=/dev/zero of=sb-io-test bs=64k count=16k conv=fdatasync
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pada perintah kedua kita menginstruksikan perintah yang mirip dengan perintah pertama diatas, namun yang berbeda ialah kita mengopi (membuat) file baru dengan ukuran dasar 64 Kilobyte sejumlah 16.000 kali.Hasilnya ialah : 1073741824 bytes (1.1 GB) copied, 5.0443 s, 213 MB/s&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dd if=/dev/zero of=sb-io-test bs=1M count=1k oflag=dsync
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pada perintah ketiga kita menginstruksikan perintah dd yang mirip dengan perintah ke 2 diatas, namun yang berbeda ialah oflag=dsync . Dsync ini sesuai dengan petunjuk &lt;a href=&quot;http://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html#dd-invocation&quot;&gt;dd manual&lt;/a&gt; ialah&lt;/p&gt;
+
+&lt;p&gt;dsync = Use synchronized I/O for data. For the output file, this forces a physical write of output data on each write.&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;dsync = Use synchronized I/O for data. For the output file, this forces a physical write of output data on each write.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jadi perbedaan fdatasync dan dsync ini ialah kalau fdatasync itu akan syncronize setelah berakhirnya segala proses salinan itu. Tetapi jika dsync setiap selesai write 1M blok dia akan syncronize. Jadi dsync membutuhkan waktu yang lama dibandingkan yg lain.&lt;/p&gt;
+
+&lt;p&gt;Hasilnya ialah : &lt;b&gt;1073741824 bytes (1.1 GB) copied, 6.06523 s, 177 MB/s&lt;/b&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dd if=/dev/zero of=sb-io-test bs=64k count=16k oflag=dsync
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Mirip dengan perintah dsync diatas namun dengan ukuran dasar yang lebih kecil 64 Kilobyte sejumlah 16000 kali. &lt;b&gt;Hasilnya ialah : 1073741824 bytes (1.1 GB) copied, 14.9571 s, 71.8 MB/s&lt;/b&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;dd if=/dev/zero of=sb-io-test bs=1M count=1k conv=fdatasync&lt;br /&gt;
+1024+0 records in&lt;br /&gt;
+1024+0 records out&lt;br /&gt;
+1073741824 bytes (1.1 GB) copied, 5.15034 s, 208 MB/s&lt;br /&gt;
+&lt;br /&gt;
+dd if=/dev/zero of=sb-io-test bs=64k count=16k conv=fdatasync&lt;br /&gt;
+16384+0 records in&lt;br /&gt;
+16384+0 records out&lt;br /&gt;
+1073741824 bytes (1.1 GB) copied, 5.0443 s, 213 MB/s&lt;br /&gt;
+&lt;br /&gt;
+dd if=/dev/zero of=sb-io-test bs=1M count=1k oflag=dsync&lt;br /&gt;
+1024+0 records in&lt;br /&gt;
+1024+0 records out&lt;br /&gt;
+1073741824 bytes (1.1 GB) copied, 6.06523 s, 177 MB/s&lt;br /&gt;
+&lt;br /&gt;
+dd if=/dev/zero of=sb-io-test bs=64k count=16k oflag=dsync&lt;br /&gt;
+16384+0 records in&lt;br /&gt;
+16384+0 records out&lt;br /&gt;
+1073741824 bytes (1.1 GB) copied, 14.9571 s, 71.8 MB/s&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pada box keempat benchmark menjelaskan testing FIO disk test dari KS-9 Kimsufi :&lt;/p&gt;
+
+&lt;p&gt;Pada yang keempat ini ialah testing FIO (flexible i/o tester) disk yang berfungsi untuk mengecek kecepatan I/O secara akurat, berikut dijelaskan masing masing perintah pada box benchmark dibawah :&lt;/p&gt;</content><author><name>Ariq Naufal</name><email>ariq@nauf.al</email></author><category term="review" /><category term="benchmark" /><category term="ovh" /><category term="kimsufi" /><summary type="html">Berikut hasil benchmark untuk KS-9 di Kimsufi.com (anak perusahaannya OVH) yang jual dedicated server murah</summary></entry></feed>
