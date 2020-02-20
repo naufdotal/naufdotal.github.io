@@ -16,9 +16,9 @@
   
     
     <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>[Part 1] Review Benchmark KS-9 Server | Ariq Naufal</title>
+<title>Review Benchmark KS-9 Server Lengkap dengan Pembahasan | Ariq Naufal</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="[Part 1] Review Benchmark KS-9 Server" />
+<meta property="og:title" content="Review Benchmark KS-9 Server Lengkap dengan Pembahasan" />
 <meta name="author" content="Ariq Naufal" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Berikut hasil benchmark untuk KS-9 di Kimsufi.com (anak perusahaannya OVH) yang jual dedicated server murah" />
@@ -29,11 +29,11 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-12-01T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="[Part 1] Review Benchmark KS-9 Server" />
+<meta property="twitter:title" content="Review Benchmark KS-9 Server Lengkap dengan Pembahasan" />
 <meta name="twitter:site" content="@riqnaufal" />
 <meta name="twitter:creator" content="@Ariq Naufal" />
 <script type="application/ld+json">
-{"description":"Berikut hasil benchmark untuk KS-9 di Kimsufi.com (anak perusahaannya OVH) yang jual dedicated server murah","dateModified":"2019-12-01T00:00:00+00:00","datePublished":"2019-12-01T00:00:00+00:00","headline":"[Part 1] Review Benchmark KS-9 Server","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://ariq.nauf.al/review/review-benchmark-dedicated-kimsufi-KS9/"},"url":"https://ariq.nauf.al/review/review-benchmark-dedicated-kimsufi-KS9/","author":{"@type":"Person","name":"Ariq Naufal"},"@context":"https://schema.org"}</script>
+{"description":"Berikut hasil benchmark untuk KS-9 di Kimsufi.com (anak perusahaannya OVH) yang jual dedicated server murah","dateModified":"2019-12-01T00:00:00+00:00","datePublished":"2019-12-01T00:00:00+00:00","headline":"Review Benchmark KS-9 Server Lengkap dengan Pembahasan","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://ariq.nauf.al/review/review-benchmark-dedicated-kimsufi-KS9/"},"url":"https://ariq.nauf.al/review/review-benchmark-dedicated-kimsufi-KS9/","author":{"@type":"Person","name":"Ariq Naufal"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -63,7 +63,7 @@
 </head>
 
 
-  <body class="layout--post  part-1-review-benchmark-ks-9-server">
+  <body class="layout--post  review-benchmark-ks-9-server-lengkap-dengan-pembahasan">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -104,7 +104,7 @@
       <header class="page-header">
         
         
-          <h1 id="page-title" class="page-title p-name">[Part 1] Review Benchmark KS-9 Server
+          <h1 id="page-title" class="page-title p-name">Review Benchmark KS-9 Server Lengkap dengan Pembahasan
 </h1>
         
       </header>
@@ -114,7 +114,7 @@
         <em>by</em> <span class="p-name">Ariq Naufal</span>
       </div>
 
-<span class="read-time">6 min read</span>
+<span class="read-time">12 min read</span>
 
     <time class="page-date dt-published" datetime="2019-12-01T00:00:00+00:00"><a class="u-url" href="">December 1, 2019</a>
 </time>
@@ -139,16 +139,20 @@
       <div class="page-content">
         <div class="e-content">
           <blockquote>
-  <p>Penjelasan tentang hasil benchmark ini akan dibuat setelah post ini rilis.. (maklum sambil belajar).
-Thx</p>
+  <p>Maaf jika masih ada yang belum sempurna pada bagian review dibawah, karena masih on going direview 1 1 (masih belajar hehe)</p>
 </blockquote>
 
 <p>Daftar Isi :</p>
 
 <ul>
-  <li>Spesifikasi Lengkap Dedicated KS-9 di Kimsufi</li>
-  <li>Testing Disk I/OPing</li>
-  <li>Testing Disk DD</li>
+  <li><a href="#spesifikasiKS9">Spesifikasi Lengkap Dedicated KS-9 di Kimsufi</a></li>
+  <li><a href="#diskioping">Testing IOPing Disk</a></li>
+  <li><a href="#testingdddisk">Testing DD Disk</a></li>
+  <li><a href="#fiodisk">Testing FIO Disk</a></li>
+  <li><a href="#testingddram">Testing DD RAM</a></li>
+  <li><a href="#iopingram">Testing IOPing RAM</a></li>
+  <li><a href="#bandwidth">Bandwidth Benchmark</a></li>
+  <li><a href="#ping">Ping Benchmark</a></li>
 </ul>
 
 <p>Berikut hasil benchmark untuk KS-9 di Kimsufi.com (anak perusahaannya OVH) yang jual dedicated server murah :</p>
@@ -160,7 +164,7 @@ Thx</p>
 
 <p>Benchmark kali ini menggunakan software centminmodbench.sh dengan versi 0.9.7 yang bisa diunduh di https://github.com/centminmod/centminmodbench/.</p>
 
-<p>Pada awal box (box pertama benchmark) menjelaskan spesifikasi lengkap dari KS-9 Kimsufi :</p>
+<h3><a id="spesifikasiKS9">01. Spesifikasi lengkap dari KS-9 Kimsufi :</a></h3>
 
 <p>Sistem operasi : CentOS 7.6<br />
 Processor  : Intel(R) Xeon(R) CPU W3530 @ 2.80GHz (spesifikasi ada di ark.intel.com)<br />
@@ -243,7 +247,7 @@ tmpfs 7.9G 0 7.9G 0% /sys/fs/cgroup<br />
 tmpfs 1.6G 0 1.6G 0% /run/user/0<br /></p>
 </blockquote>
 
-<p>Pada box kedua benchmark menjelaskan testing disk ioping dari KS-9 Kimsufi :</p>
+<h3><a id="diskioping">Benchmark testing disk ioping dari KS-9 Kimsufi :</a></h3>
 
 <p>Testing disk ioping ini berguna untuk memonitor I/O latency secara langsung. Software ini menampilkan disk latency yang sama saja seperti jika kamu mencoba ping ketika mengetes network latency.  Script ada di code.google.com (sekarang sudah ada di github)</p>
 
@@ -311,26 +315,27 @@ IOPing cached: ./ioping -RC .<br />
 min/avg/max/mdev = 0 us / 1 us / 233 us / 0 us<br /></p>
 </blockquote>
 
-<p>Pada box ketiga benchmark menjelaskan testing DD DISK dari KS-9 Kimsufi :</p>
+<h3><a id="testingdddisk">03. Benchmark testing DD DISK dari KS-9 Kimsufi :</a></h3>
 
-<p>Pada yang ketiga ini ialah testing DD disk yang berfungsi untuk mengecek kecepatan I/O, Berikut dijelaskan masing masing perintah pada box benchmark dibawah :</p>
+<p>Pada yang ketiga ini ialah testing DD disk yang berfungsi untuk mengecek kecepatan I/O, berikut dijelaskan masing masing perintah pada box benchmark dibawah :</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dd if=/dev/zero of=sb-io-test bs=1M count=1k conv=fdatasync
 </code></pre></div></div>
 
-<p>Pada perintah pertama kita mencoba test dd disk dengan mengopi (membuat) file baru di lokasi /dev/zero (blackhole) dengan nama sb-io-test dengan ukuran dasar 1MB sebanyak 1.000 kali, jadi totalnya 1GB di lokasi /dev/zero. Sedangkan fdatasync fungsinya menginstruksikan Linux agar benar – benar menuliskan datanya ke disk. Hasilnya ialah : 1073741824 bytes (1.1 GB) copied, 5.15034 s, 208 MB/s</p>
+<p>Pada perintah pertama kita mencoba test dd disk dengan mengopi (membuat) file dummy baru dengan nama sb-io-test dengan ukuran dasar 1MB sebanyak 1.000 kali, jadi totalnya 1GB di lokasi /dev/zero 
+Hasilnya ialah : <strong>1073741824 bytes (1.1 GB) copied, 5.15034 s, 208 MB/s</strong></p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dd if=/dev/zero of=sb-io-test bs=64k count=16k conv=fdatasync
 </code></pre></div></div>
 
-<p>Pada perintah kedua kita menginstruksikan perintah yang mirip dengan perintah pertama diatas, namun yang berbeda ialah kita mengopi (membuat) file baru dengan ukuran dasar 64 Kilobyte sejumlah 16.000 kali.Hasilnya ialah : 1073741824 bytes (1.1 GB) copied, 5.0443 s, 213 MB/s</p>
+<p>Pada perintah kedua kita menginstruksikan perintah yang mirip dengan perintah pertama diatas, namun yang berbeda ialah kita mengopi (membuat) file baru dengan ukuran dasar 64 Kilobyte sejumlah 16.000 kali.
+Hasilnya ialah : <strong>1073741824 bytes (1.1 GB) copied, 5.0443 s, 213 MB/s</strong></p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dd if=/dev/zero of=sb-io-test bs=1M count=1k oflag=dsync
 </code></pre></div></div>
 
-<p>Pada perintah ketiga kita menginstruksikan perintah dd yang mirip dengan perintah ke 2 diatas, namun yang berbeda ialah oflag=dsync . Dsync ini sesuai dengan petunjuk <a href="http://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html#dd-invocation">dd manual</a> ialah</p>
-
-<p>dsync = Use synchronized I/O for data. For the output file, this forces a physical write of output data on each write.</p>
+<p>Pada perintah ketiga kita menginstruksikan perintah dd yang mirip dengan perintah ke 2 diatas, namun yang berbeda ialah oflag=dsync. 
+Dsync ini sesuai dengan petunjuk <a href="http://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html#dd-invocation">dd manual</a> ialah</p>
 
 <blockquote>
 
@@ -346,6 +351,17 @@ min/avg/max/mdev = 0 us / 1 us / 233 us / 0 us<br /></p>
 </code></pre></div></div>
 
 <p>Mirip dengan perintah dsync diatas namun dengan ukuran dasar yang lebih kecil 64 Kilobyte sejumlah 16000 kali. <b>Hasilnya ialah : 1073741824 bytes (1.1 GB) copied, 14.9571 s, 71.8 MB/s</b></p>
+
+<p>Keterangan:</p>
+<ul>
+  <li>bs; artinya satuan baca dan tulis dalam hitungan detik. 1M artinya tiap detik ditulis sebanyak 1 MB.</li>
+  <li>count; banyaknya baca/tulis dalam detik. 512 artinya ditulis sebanyak 512 kali. 512 x 1 MB = 512 MB.</li>
+  <li>if=/dev/zero; artinya membuat file dummy.</li>
+  <li>of=sb-io-test; file dummy bernama sb-io-test.</li>
+  <li>conv=fdatasync; untuk trashing cache,</li>
+</ul>
+
+<p>Keseluruhan :</p>
 
 <blockquote>
   <p>dd if=/dev/zero of=sb-io-test bs=1M count=1k conv=fdatasync<br />
@@ -370,18 +386,247 @@ dd if=/dev/zero of=sb-io-test bs=64k count=16k oflag=dsync<br />
 <br /></p>
 </blockquote>
 
-<p>Pada box keempat benchmark menjelaskan testing FIO disk test dari KS-9 Kimsufi :</p>
+<h3><a id="fiodisk">04. Benchmark testing FIO disk test dari KS-9 Kimsufi :</a></h3>
 
-<p>Pada yang keempat ini ialah testing FIO (flexible i/o tester) disk yang berfungsi untuk mengecek kecepatan I/O secara akurat, berikut dijelaskan masing masing perintah pada box benchmark dibawah :</p>
+<p>Pada yang keempat ini ialah testing FIO (flexible i/o tester) disk yang berfungsi untuk mengecek kecepatan I/O secara random <a href="https://news.ycombinator.com/item?id=9353802"><em>dikarenakan perintah dd belum begitu kuat untuk dijadikan patokan menurut master-master diluar sana</em></a>, berikut dijelaskan masing masing perintah pada box benchmark dibawah :</p>
+
+<p>Percobaan pertama ialah mengecek kecepatan IOs read harddisknya :</p>
+
+<blockquote>
+  <p>Running FIO benchmark…</p>
+
+  <p>FIO random reads:<br />
+randomreads: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=libaio, iodepth=64<br />
+fio-2.0.9<br />
+Starting 1 process<br />
+randomreads: Laying out IO file(s) (1 file(s) / 1024MB)</p>
+
+  <p>randomreads: (groupid=0, jobs=1): err= 0: pid=21370: Fri Sep 12 06:40:16 2014<br />
+read : io=1024.3MB, bw=249959KB/s, iops=62489 , runt=  4196msec<br />
+cpu          : usr=3.31%, sys=21.84%, ctx=34741, majf=0, minf=89<br />
+IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, &gt;=64=100.0%<br />
+submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, &gt;=64=0.0%<br />
+complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, &gt;=64=0.0%<br />
+issued    : total=r=262207/w=0/d=0, short=r=0/w=0/d=0</p>
+
+  <p>Run status group 0 (all jobs):<br />
+READ: io=1024.3MB, aggrb=249959KB/s, minb=249959KB/s, maxb=249959KB/s, mint=4196msec, maxt=4196msec<br /></p>
+
+  <p>Disk stats (read/write):<br />
+dm-0: ios=252946/0, merge=0/0, ticks=52893/0, in_queue=52912, util=97.66%, aggrios=262207/0, aggrmerge=0/0, aggrticks=51502/0, aggrin_queue=51473, aggrutil=97.31%<br />
+sda: ios=262207/0, merge=0/0, ticks=51502/0, in_queue=51473, util=97.31%</p>
+</blockquote>
+
+<p><strong>Didapatkan kec. random read :</strong></p>
+<ul>
+  <li>Throughput: aggrb=249959KB/s atau sekitar <strong>249MB/s</strong></li>
+  <li>IOs pada harddisk pertama dm-0: ios=252946/0</li>
+  <li>IOs pada harddisk kedua sda: ios=262207/0</li>
+  <li>maxt (waktu proses berjalan): 4196msec</li>
+</ul>
+
+<blockquote>
+  <p>FIO random writes:<br />
+randomwrites: (g=0): rw=randwrite, bs=4K-4K/4K-4K, ioengine=libaio, iodepth=64<br />
+fio-2.0.9<br />
+Starting 1 process</p>
+
+  <p>randomwrites: (groupid=0, jobs=1): err= 0: pid=21384: Fri Sep 12 06:40:20 2014<br />
+write: io=1024.3MB, bw=259804KB/s, iops=64950 , runt=  4037msec<br />
+cpu          : usr=3.82%, sys=28.22%, ctx=32594, majf=0, minf=25<br />
+IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, &gt;=64=100.0%<br />
+submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, &gt;=64=0.0%<br />
+complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, &gt;=64=0.0%<br />
+issued    : total=r=0/w=262207/d=0, short=r=0/w=0/d=0</p>
+
+  <p>Run status group 0 (all jobs):<br />
+WRITE: io=1024.3MB, aggrb=259803KB/s, minb=259803KB/s, maxb=259803KB/s, mint=4037msec, maxt=4037msec<br /></p>
+
+  <p>Disk stats (read/write):<br />
+dm-0: ios=0/253379, merge=0/0, ticks=0/50972, in_queue=50994, util=97.55%, aggrios=0/262282, aggrmerge=0/0, aggrticks=0/49827, aggrin_queue=49801, aggrutil=97.35%<br />
+sda: ios=0/262282, merge=0/0, ticks=0/49827, in_queue=49801, util=97.35%</p>
+</blockquote>
+
+<p><strong>Didapatkan kec. random write:</strong></p>
+<ul>
+  <li>Throughput: aggrb=259803KB/s atau sekitar <strong>260MB/s</strong></li>
+  <li>IOs pada harddisk pertama dm-0: ios=0/253379</li>
+  <li>IOs pada harddisk kedua sda: ios=0/262282</li>
+  <li>maxt (waktu proses berjalan): 4037msec</li>
+</ul>
+
+<h3><a id="testingddram">05. Benchmark menjelaskan testing DD RAM dari KS-9 Kimsufi :</a></h3>
+
+<p>Pada yang kelima ini ialah testing DD yang berfungsi untuk mengecek kecepatan I/O pada RAM 16GB DDR3 ECC 1333 MHz nya, berikut dijelaskan masing masing perintah pada box benchmark dibawah :</p>
+
+<p><em>Percobaan pertama :</em></p>
+
+<blockquote>
+  <p>dd if=/dev/zero of=sb-io-test bs=128k count=1k conv=fdatasync<br />
+1024+0 records in<br />
+1024+0 records out<br />
+134217728 bytes (134 MB) copied, 0.0790473 s, 1.7 GB/s</p>
+</blockquote>
+
+<p>Keterangan:</p>
+<ul>
+  <li>bs; artinya satuan baca dan tulis dalam hitungan detik. 128k artinya tiap detik ditulis sebanyak 128 kb.</li>
+  <li>count; banyaknya baca/tulis dalam detik. 1k artinya ditulis sebanyak 1000 kali. 1000 x 128 kb = 128 MB.</li>
+  <li>if=/dev/zero; artinya membuat file dummy.</li>
+  <li>of=sb-io-test; file dummy bernama test.</li>
+  <li>conv=fdatasync; untuk trashing cache,</li>
+</ul>
+
+<p>Hasil dari percobaan pertama :</p>
+
+<p><strong>134217728 bytes (134 MB) copied, 0.0790473 s, 1.7 GB/s</strong></p>
+
+<p><em>Percobaan kedua :</em></p>
+
+<blockquote>
+  <p>dd if=/dev/zero of=sb-io-test bs=8k count=16k conv=fdatasync<br />
+16384+0 records in<br />
+16384+0 records out<br />
+134217728 bytes (134 MB) copied, 0.120048 s, 1.1 GB/s</p>
+</blockquote>
+
+<p>Hasil percobaan kedua :</p>
+
+<p><strong>134217728 bytes (134 MB) copied, 0.120048 s, 1.1 GB/s</strong></p>
+
+<p><em>Percobaan ketiga :</em></p>
+
+<blockquote>
+  <p>dd if=/dev/zero of=sb-io-test bs=128k count=1k oflag=dsync<br />
+1024+0 records in<br />
+1024+0 records out<br />
+134217728 bytes (134 MB) copied, 0.060402 s, 2.2 GB/s</p>
+</blockquote>
+
+<p>Hasil percobaan ketiga :</p>
+
+<p><strong>134217728 bytes (134 MB) copied, 0.060402 s, 2.2 GB/s</strong></p>
+
+<p><em>Percobaan keempat :</em></p>
+
+<blockquote>
+  <p>dd if=/dev/zero of=sb-io-test bs=8k count=16k oflag=dsync<br />
+16384+0 records in<br />
+16384+0 records out<br />
+134217728 bytes (134 MB) copied, 0.0890499 s, 1.5 GB/s</p>
+</blockquote>
+
+<p>Hasil percobaan keempat :</p>
+
+<p><strong>134217728 bytes (134 MB) copied, 0.0890499 s, 1.5 GB/s</strong></p>
+
+<p>Keterangan :</p>
+<ul>
+  <li>Percobaan pertama membuat file dummy yang dibaca/ditulis setiap detiknya 128kb selama 1000 kali, mendapatkan hasil 1.7GB/s.</li>
+  <li>Percobaan kedua membuat file dummy yang dibaca/ditulis setiap detiknya 8k selama 16000 kali, mendapatkan hasil 1.1 GB/s.</li>
+  <li>Percobaan ketiga membuat file dummy setiap detiknya 128k selama 1000 kali, mendapatkan hasil 1.1 GB/s dengan <strong>oflag=dsync</strong> yang berarti menggunakan kernel buffering yang bekerja secara <a href="https://stackoverflow.com/questions/50878146/why-is-dd-with-direct-flag-much-slower-than-dsync">flush+wait</a> setiap selesai dari sebuah task. (ini 1000 task ya).</li>
+  <li>Percobaan keempat membuat file dummy sama seperti ketiga menggunakan oflag=dsync, namun dengan size seperti percobaan kedua, mendapatkan hasil 1.5 GB/s.</li>
+</ul>
+
+<h3><a id="iopingram">06. Benchmark menjelaskan testing ioping RAM dari KS-9 Kimsufi :</a></h3>
+
+<blockquote>
+  <p>IOPing I/O: ./ioping -c 10 .<br />
+4.0 KiB from . (tmpfs tmpfs): request=1 time=4 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=2 time=5 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=3 time=5 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=4 time=5 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=5 time=5 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=6 time=5 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=7 time=5 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=8 time=4 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=9 time=5 us<br />
+4.0 KiB from . (tmpfs tmpfs): request=10 time=5 us<br /></p>
+</blockquote>
+
+<blockquote>
+  <p>10 requests completed in 9.0 s, 208.3 k iops, 813.8 MiB/s<br />
+min/avg/max/mdev = 4 us / 4 us / 5 us / 0 us<br /></p>
+</blockquote>
+
+<blockquote>
+  <p>IOPing seek rate: ./ioping -R .<br />
+<br />
+977.4 k requests completed in 3.0 s, 720.4 k iops, 2.7 GiB/s<br />
+min/avg/max/mdev = 1 us / 1 us / 72 us / 0 us<br /></p>
+</blockquote>
+
+<blockquote>
+  <p>IOPing sequential: ./ioping -RL .<br />
+<br />
+40.3 k requests completed in 3.0 s, 20.8 k iops, 5.1 GiB/s<br />
+min/avg/max/mdev = 44 us / 48 us / 135 us / 4 us<br /></p>
+</blockquote>
+
+<blockquote>
+  <p>IOPing cached: ./ioping -RC .<br /></p>
+
+  <p>2.0 M requests completed in 3.0 s, 709.3 k iops, 2.7 GiB/s<br />
+min/avg/max/mdev = 1 us / 1 us / 82 us / 0 us<br /></p>
+</blockquote>
+
+<h3><a id="bandwidth">07. Benchmark test bandwidth ke seluruh dunia dari KS-9 Kimsufi :</a></h3>
+
+<script src="https://gist.github.com/naufdotal/19874cf398785721c972c677296192a4.js"></script>
+
+<h3><a id="ping">08. Benchmark test ping ke seluruh dunia dari KS-9 Kimsufi :</a></h3>
+
+<script src="https://gist.github.com/naufdotal/8e61830c48302be328986739f1a443a2.js"></script>
+
+<h3><a id="openssl">09. Benchmark OpenSSL system :</a></h3>
+
+<blockquote>
+  <p>OpenSSL 1.0.2k-fips  26 Jan 2017<br />
+<br />
+openssl speed -multi 8 rsa4096 rsa2048 ecdsap256 sha256 sha1 md5 rc4 aes-256-cbc aes-128-cbc<br />
+OpenSSL 1.0.2k-fips  26 Jan 2017<br />
+built on: reproducible build, date unspecified<br />
+options:bn(64,64) md2(int) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) <br />
+compiler: gcc -I. -I.. -I../include  -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DKRB5_MIT -m64 -DL_ENDIAN -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong –param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic -Wa,–noexecstack -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DRC4_ASM -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM<br /><br />
+md5             182903.71k   609621.72k  1523599.27k  2440372.22k  2951569.41k<br />
+sha1            184452.65k   520340.33k  1113258.24k  1554287.27k  1775629.65k<br />
+rc4             832876.73k  1770775.13k  2389308.07k  2614241.96k  2696030.89k<br />
+aes-128 cbc     340291.01k   359252.95k   363307.95k   363764.74k   363795.80k<br />
+aes-256 cbc     246103.51k   255880.37k   259023.27k   257729.54k   260216.15k<br />
+sha256          165359.67k   367278.44k   632414.72k   771314.01k   824721.41k<br />
+                 sign    verify    sign/s verify/s<br />
+rsa 2048 bits 0.000482s 0.000014s   2076.2  70099.2<br />
+rsa 4096 bits 0.003524s 0.000054s    283.8  18658.9<br />
+                             sign    verify    sign/s verify/s<br />
+256 bit ecdsa (nistp256)   0.0000s   0.0000s  54054.1  21798.6<br /></p>
+</blockquote>
+
+<blockquote>
+  <p>openssl speed -evp aes256 -multi 8<br />
+OpenSSL 1.0.2k-fips  26 Jan 2017<br />
+built on: reproducible build, date unspecified<br />
+options:bn(64,64) md2(int) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) <br />
+compiler: gcc -I. -I.. -I../include  -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DKRB5_MIT -m64 -DL_ENDIAN -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong –param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic -Wa,–noexecstack -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DRC4_ASM -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM<br /><br />
+evp             732916.14k   852726.23k   884328.19k   892637.53k   895180.80k<br /></p>
+</blockquote>
+
+<blockquote>
+  <p>openssl speed -evp aes128 -multi 8<br />
+OpenSSL 1.0.2k-fips  26 Jan 2017<br />
+built on: reproducible build, date unspecified<br />
+options:bn(64,64) md2(int) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) <br />
+compiler: gcc -I. -I.. -I../include  -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DKRB5_MIT -m64 -DL_ENDIAN -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong –param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic -Wa,–noexecstack -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DRC4_ASM -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM<br /><br />
+evp             957008.03k  1162832.36k  1222415.70k  1238251.86k  1242740.05k<br /></p>
+</blockquote>
 
         </div>
 
         
           <div class="page-share">
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fariq.nauf.al%2Freview%2Freview-benchmark-dedicated-kimsufi-KS9%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--facebook btn--small"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i> <span>Share</span></a>
-  <a href="https://twitter.com/intent/tweet?text=%5BPart+1%5D+Review+Benchmark+KS-9+Server%20https%3A%2F%2Fariq.nauf.al%2Freview%2Freview-benchmark-dedicated-kimsufi-KS9%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--twitter btn--small"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> <span>Tweet</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Review+Benchmark+KS-9+Server+Lengkap+dengan+Pembahasan%20https%3A%2F%2Fariq.nauf.al%2Freview%2Freview-benchmark-dedicated-kimsufi-KS9%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--twitter btn--small"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> <span>Tweet</span></a>
   <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fariq.nauf.al%2Freview%2Freview-benchmark-dedicated-kimsufi-KS9%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--linkedin btn--small"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> <span>LinkedIn</span></a>
-  <a href="https://reddit.com/submit?title=%5BPart+1%5D+Review+Benchmark+KS-9+Server&url=https%3A%2F%2Fariq.nauf.al%2Freview%2Freview-benchmark-dedicated-kimsufi-KS9%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--reddit btn--small"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i> <span>Reddit</span></a>
+  <a href="https://reddit.com/submit?title=Review+Benchmark+KS-9+Server+Lengkap+dengan+Pembahasan&url=https%3A%2F%2Fariq.nauf.al%2Freview%2Freview-benchmark-dedicated-kimsufi-KS9%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--reddit btn--small"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i> <span>Reddit</span></a>
 </div>
 
         
