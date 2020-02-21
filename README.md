@@ -1,1 +1,0 @@
-# naufdotal.github.io
